@@ -1,3 +1,34 @@
 # Predictive analysis of weather conditions in Biak Numfor
 
-Analisis ini merupakan bagian dari tugas kuliah yang bertujuan untuk memahami kondisi cuaca di Biak Numfor selama periode Januari 2010 hingga Agustus 2023. Variabel yang dianalisis meliputi temperatur minimum dan maksimum, kelembapan rata-rata, curah hujan, kecepatan angin maksimum, serta arah angin saat kecepatan maksimum. Setelah dilakukan pembersihan data dari outlier dan analisis korelasi serta tren, dilakukan juga proses peramalan (forecasting) menggunakan metode Extreme Learning Machine (ELM) untuk membangun model prediksi. Meskipun disebut sebagai proses forecasting, model yang dibuat tidak secara langsung digunakan untuk meramal kondisi cuaca setelah Agustus 2023. Sebaliknya, model dilatih menggunakan sebagian data historis, lalu diuji dengan data sisanya (data dari periode yang sudah ada) untuk melihat sejauh mana model mampu memprediksi nilai variabel cuaca berdasarkan pola yang telah dipelajarinya. Hasil prediksi kemudian dibandingkan dengan data aktual menggunakan berbagai metrik evaluasi seperti MAE, MAPE, MSE, RMSE, dan koefisien variasi. Evaluasi ini bertujuan untuk menilai akurasi model, yang kemudian dapat menjadi dasar untuk pengembangan model peramalan jangka panjang di masa depan.
+This project aims to analyze weather patterns and changes in Biak Numfor Regency during the period from January 2010 to August 2023, as well as to develop a prediction model based on historical data. The weather variables analyzed include:
+- Minimum temperature
+- Maximum temperature
+- Average humidity
+- Rainfall
+- Maximum wind speed
+- Wind direction at maximum speed
+
+The analysis was conducted starting from data cleaning, trend and correlation analysis, to the development of a prediction model using Extreme Learning Machine (ELM). The model was not used to predict actual future data, but was tested using historical data to measure its performance.
+
+## Background
+
+
+## Objectives
+This project aims to:
+1. Analyzing weather patterns in Biak Numfor from 2010 to 2023.
+2. Performing trend and correlation analyses to understand the relationships between weather variables.
+3. Building a prediction model using the Extreme Learning Machine (ELM) method.
+4. Testing the model's performance using historical data that the model has not seen before.
+5. Evaluating the accuracy level using MAE, MAPE, MSE, RMSE, and coefficient of variation metrics.
+6. Providing insight into the potential of this model for use in long-term weather prediction.
+
+## Why This Analysis Matters
+
+
+## Analysis Steps
+The analysis steps include:
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Modeling with Extreme Learning Machine (ELM)
+5. Model Evaluation
