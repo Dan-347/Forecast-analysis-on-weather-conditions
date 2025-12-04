@@ -30,10 +30,10 @@ The analysis steps include:
 1. **Data Collection** <br>
 The first stage began with understanding the characteristics of Biak Numfor weather data for the period January 2010 – August 2023.
 2. **Data Cleaning & Preprocessing** <br>
-This stage ensures that the data is clean and ready for analysis and use as model input. The processes carried out are deleting missing values and removing outliers. The objective of this stage is to produce a consistent, accurate dataset that is suitable as input for statistical analysis and machine learning models.
+This stage ensures that the data is clean and ready for analysis and use as model input. The process involved selecting the variables to be used, removing missing values, converting date columns into datetime format, and removing outliers. The objective of this stage is to produce a consistent, accurate dataset that is suitable as input for statistical analysis and machine learning models.
 3. **Exploratory Data Analysis (EDA)** <br>
 This stage is used to understand patterns, trends, and relationships between variables through descriptive statistical analysis and visualization. The analysis conducted was to observe long-term patterns (increase, decrease, stable) for each weather variable and identify seasonal patterns such as high rainfall in certain months or temperature increases in certain periods.
 4. **Modeling with Extreme Learning Machine (ELM)** <br>
-
+During the modeling stage, the dataset is first divided into a training set and a testing set to ensure that the model can be trained on a portion of the data and evaluated using data it has never seen before. After the division is complete, the Extreme Learning Machine (ELM) model is trained to learn patterns and relationships between weather variables based on the data in the training set, so that the model can recognize the general structure needed to make predictions.
 5. **Model Evaluation** <br>
 After the model generates predictions, its performance is evaluated by comparing the predicted values with the actual values. The evaluation metrics used are MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error), MSE (Mean Squared Error), RMSE (Root Mean Squared Error), and Coefficient of Variation. The interpretation is done to assess whether the model is sufficiently accurate and stable.
