@@ -11,7 +11,7 @@ This project aims to analyze weather patterns and changes in Biak Numfor Regency
 The analysis was conducted starting from data cleaning, trend and correlation analysis, to the development of a prediction model using Extreme Learning Machine (ELM). The model was not used to predict actual future data, but was tested using historical data to measure its performance.
 
 ## Background
-
+The weather in Biak Numfor is known to be quite dynamic and often changes suddenly, which can affect various community activities such as flights, fishing activities, and daily planning. Although weather data is collected annually, this information is usually only used as a record without further analysis to identify patterns, trends, or relationships between variables. Therefore, more in-depth analysis and testing of prediction models are needed to determine whether historical data can help predict future weather conditions. This approach can be a first step toward a more accurate weather forecasting system that is useful for the local community.
 
 ## Objectives
 This project aims to:
@@ -23,7 +23,7 @@ This project aims to:
 6. Providing insight into the potential of this model for use in long-term weather prediction.
 
 ## Why This Analysis Matters
-
+This analysis is important because it helps to understand how weather variables in Biak Numfor change over time and how consistently these patterns can be studied by predictive models. By evaluating model performance based on historical data, this study provides an overview of the potential and limitations of the forecasting methods used. These insights can be a first step in developing a more informative and useful weather prediction system for environmental monitoring and future activity planning needs.
 
 ## Analysis Steps
 The analysis steps include:
