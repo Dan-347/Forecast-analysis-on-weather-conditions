@@ -37,3 +37,10 @@ This stage is used to understand patterns, trends, and relationships between var
 During the modeling stage, the dataset is first divided into a training set and a testing set to ensure that the model can be trained on a portion of the data and evaluated using data it has never seen before. After the division is complete, the Extreme Learning Machine (ELM) model is trained to learn patterns and relationships between weather variables based on the data in the training set, so that the model can recognize the general structure needed to make predictions.
 5. **Model Evaluation** <br>
 After the model generates predictions, its performance is evaluated by comparing the predicted values with the actual values. The evaluation metrics used are MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error), MSE (Mean Squared Error), RMSE (Root Mean Squared Error), and Coefficient of Variation. The interpretation is done to assess whether the model is sufficiently accurate and stable.
+
+## Insights
+
+
+The results of testing the Extreme Learning Machine (ELM) model show that the model is able to follow historical patterns well for variables such as temperature and humidity, which have smoother trends. However, its accuracy decreases for variables with extreme fluctuations, such as rainfall and wind direction, so this model is more suitable for use as a baseline rather than for long-term operational predictions. These findings reinforce the notion that weather modeling in coastal areas requires additional data and a more complex approach in order to capture atmospheric dynamics more accurately.
+
+## Conclusion
